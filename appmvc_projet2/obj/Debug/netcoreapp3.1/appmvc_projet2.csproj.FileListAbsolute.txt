@@ -1,0 +1,51 @@
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appmvc_projet2.exe
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appmvc_projet2.deps.json
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appmvc_projet2.runtimeconfig.json
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appmvc_projet2.runtimeconfig.dev.json
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appmvc_projet2.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appmvc_projet2.pdb
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.csproj.AssemblyReference.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.AssemblyInfoInputs.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.AssemblyInfo.cs
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.csproj.CoreCompileInputs.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.MvcApplicationPartsAssemblyInfo.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\staticwebassets\appmvc_projet2.StaticWebAssets.Manifest.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.RazorTargetAssemblyInfo.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.csproj.CopyComplete
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.dll
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.pdb
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.genruntimeconfig.cache
+C:\Users\frede\OneDrive\Bureau\isika formation\cours\projet 2 sujet\appmvc_projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.csproj.AssemblyReference.cache
+C:\Users\frede\OneDrive\Bureau\isika formation\cours\projet 2 sujet\appmvc_projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frede\OneDrive\Bureau\isika formation\cours\projet 2 sujet\appmvc_projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.AssemblyInfoInputs.cache
+C:\Users\frede\OneDrive\Bureau\isika formation\cours\projet 2 sujet\appmvc_projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.AssemblyInfo.cs
+C:\Users\frede\OneDrive\Bureau\isika formation\cours\projet 2 sujet\appmvc_projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.csproj.CoreCompileInputs.cache
+C:\Users\frede\OneDrive\Bureau\isika formation\cours\projet 2 sujet\appmvc_projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\frede\OneDrive\Bureau\isika formation\cours\projet 2 sujet\appmvc_projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.dll
+C:\Users\frede\OneDrive\Bureau\isika formation\cours\projet 2 sujet\appmvc_projet2\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.pdb
