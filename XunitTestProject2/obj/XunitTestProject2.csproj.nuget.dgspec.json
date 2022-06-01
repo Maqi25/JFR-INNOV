@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj": {}
+    "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
+    "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+        "projectUniqueName": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
         "projectName": "appmvc_projet2",
-        "projectPath": "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
-        "packagesPath": "C:\\Users\\frede\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\obj\\",
+        "projectPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+        "packagesPath": "C:\\Users\\romua\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\frede\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\romua\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[3.1.15, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[3.2.5, )"
@@ -77,17 +81,17 @@
         }
       }
     },
-    "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj": {
+    "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
+        "projectUniqueName": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
         "projectName": "XunitTestProject2",
-        "projectPath": "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
-        "packagesPath": "C:\\Users\\frede\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\obj\\",
+        "projectPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
+        "packagesPath": "C:\\Users\\romua\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\frede\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\romua\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,8 +105,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
-                "projectPath": "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj"
+              "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
+                "projectPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj"
               }
             }
           }

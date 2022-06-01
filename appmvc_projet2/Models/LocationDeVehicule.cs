@@ -3,11 +3,8 @@
 namespace appmvc_projet2.Models
 {
     public class LocationDeVehicule 
-
-
     {
         public int Id { get; set; }
-
         public int? ServiceId { get; set; }
 
         public Service Service { get; set; }

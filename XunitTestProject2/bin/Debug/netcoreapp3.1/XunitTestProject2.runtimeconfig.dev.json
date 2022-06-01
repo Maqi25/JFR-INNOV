@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\romua\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\romua\\.nuget\\packages"
+      "C:\\Users\\biasj\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\biasj\\.nuget\\packages"
     ]
   }
 }

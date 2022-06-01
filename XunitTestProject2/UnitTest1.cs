@@ -16,17 +16,15 @@ namespace XunitTestProject2
                 // Nous supprimons et créons la db avant le test
                 dal.DeleteCreateDatabase();
                 // Nous créons une personne
-                dal.CreerPersonneInscrite("Dupont", "Joe", "10 rue de Paris", "joedupont@gamil.com", "0123456789", "provider");
+
+                int id = dal.CreerPersonne("joe","jack","5bis ananas paris","joejack@gmail.com","0907030506");
+                dal.CreerPersonneInscrite(id,"provider");
 
                 // Nous vérifions que la personne a bien été créée
                 List<PersonneInscrite> personneInscrites = dal.ObtientToutessLesPersonneInscrites();
                 Assert.NotNull(personneInscrites);
                 Assert.Single(personneInscrites);
-                Assert.Equal("Dupont", personneInscrites[0].Nom);
-                Assert.Equal("Joe", personneInscrites[0].Prenom);
-                Assert.Equal("10 rue de Paris", personneInscrites[0].Adresse);
-                Assert.Equal("joedupont@gamil.com", personneInscrites[0].Email);
-                Assert.Equal("0123456789", personneInscrites[0].NumeroTel);
+               
                 Assert.Equal("provider", personneInscrites[0].Statut);
             }
         }

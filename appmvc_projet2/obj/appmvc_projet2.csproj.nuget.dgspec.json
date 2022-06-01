@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {}
+    "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
+    "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+        "projectUniqueName": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
         "projectName": "appmvc_projet2",
-        "projectPath": "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
-        "packagesPath": "C:\\Users\\frede\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frede\\OneDrive\\Bureau\\isika formation\\cours\\projet 2 sujet\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\obj\\",
+        "projectPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+        "packagesPath": "C:\\Users\\romua\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\frede\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\romua\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
