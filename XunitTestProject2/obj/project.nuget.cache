@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rOGNf5aibgm203SxIz1uEyNJOQlt7Zoh3Lg0aQubYkwqIdXzFzWMmqnF8hYh5+pZSgYUPIzr7OXcfnLK5Smfkg==",
+  "dgSpecHash": "om6CIT+HUkz3aFCzuVjOhn7kxnsJq0GVMVcweiMJT89E0A2hFnUvEqjKu+XbDzMaDNLCUA98QKmxj13HlrDGsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
+  "projectFilePath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\romua\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\romua\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

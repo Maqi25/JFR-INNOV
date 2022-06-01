@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FzdlA6NRazRQgF7+wu2w5k4jeVO1Rc1ixqE9mwrjF8sI++njWaqh88fGw5BJgx6blxWC/IdgAJkg85VPX3p2sw==",
+  "dgSpecHash": "srhyTAtxCJFCJSNbL14XXjkyc7X/7ClJHhfMIrqOKAkkVsX+cky4ZC0BjtX6aP3TfspNSo4etqvFqIDTJi6kHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+  "projectFilePath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\romua\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\romua\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

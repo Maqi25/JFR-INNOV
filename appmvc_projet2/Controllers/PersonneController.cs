@@ -6,10 +6,10 @@ namespace appmvc_projet2.Controllers
 {
     public class PersonneController : Controller
     {
-        public IActionResult Index()
+       /* public IActionResult Index()
         {
             return View();
-        }
+        }*/
 
         public IActionResult ModifierPersonne(int id)
         {
@@ -28,25 +28,7 @@ namespace appmvc_projet2.Controllers
             return View("Error");
         }
 
-        /*[HttpPost]
-        public IActionResult ModifierSejour(Personne personne)
-        {
-            *//*if (!ModelState.IsValid)
-                return View(personne);*//*
-
-            if (personne.Id != 0)
-            {
-                using (Dal dal = new Dal())
-                {
-                    dal.ModifierPersonne(personne.Id, personne.Nom, personne.Prenom, personne.Adresse, personne.Email, personne.NumeroTel);
-                    return RedirectToAction("ModifierPersonne", new { @id = personne.Id });
-                }
-            }
-            else
-            {
-                return View("Error");
-            }
-        }*/
+        
         [HttpPost]
         public IActionResult ModifierPersonne(Personne personne)
         {
@@ -54,7 +36,7 @@ namespace appmvc_projet2.Controllers
             {
                 using (Dal dal = new Dal())
                 {
-                    dal.ModifierPersonne(personne.Id, personne.Nom, personne.Prenom, personne.Adresse, personne.Email, personne.NumeroTel);
+                    dal.ModifierPersonne(personne);
                     return RedirectToAction("ModifierPersonne", new { @id = personne.Id });
                 }
             }

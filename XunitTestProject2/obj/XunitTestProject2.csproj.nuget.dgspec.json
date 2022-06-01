@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj": {}
+    "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
+    "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+        "projectUniqueName": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
         "projectName": "appmvc_projet2",
-        "projectPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+        "projectPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
         "packagesPath": "C:\\Users\\romua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\obj\\",
+        "outputPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\romua\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj": {
+    "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
+        "projectUniqueName": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
         "projectName": "XunitTestProject2",
-        "projectPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
+        "projectPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
         "packagesPath": "C:\\Users\\romua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\XunitTestProject2\\obj\\",
+        "outputPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\XunitTestProject2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\romua\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,8 +105,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
-                "projectPath": "C:\\Users\\romua\\Downloads\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj"
+              "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
+                "projectPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj"
               }
             }
           }

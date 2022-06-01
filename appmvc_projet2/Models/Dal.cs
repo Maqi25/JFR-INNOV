@@ -70,6 +70,12 @@ namespace appmvc_projet2.Models
 
         }
 
+        public void ModifierPersonne(Personne personne)
+        {
+            _bddContext.Personnes.Update(personne);
+            _bddContext.SaveChanges();
+        }
+
         public List<Personne> ObtientToutesLesPersonnes()
         {
             return _bddContext.Personnes.ToList();
