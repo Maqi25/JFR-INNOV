@@ -1,0 +1,39 @@
+﻿
+@model List<appmvc_projet2.Models.Personne>
+@{
+    ViewBag.Title = "Liste des Personnes";
+    Layout = "Layout";
+}
+
+<div class="container-fluid">
+        <h2>Liste des personnes</h2>
+       
+         @*<p><a href="@("/plat/Ajouter")" class="btn btn-info" role="button">Ajouter</a></p>*@
+         <table class="table table-bordered" style="text-align : center">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                     <th>Email</th>
+                    <th>Adresse</th>
+                     <th>Téléphone</th>
+                    <th colspan="2" >Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var personne in Model)
+                {   
+                    <tr>
+                        <td>@personne.Nom</td>
+                        <td>@personne.Prenom</td>   
+                        <td>@personne.Email</td>
+                        <td>@personne.Adresse</td>  
+                        <td>@personne.NumeroTel</td> 
+                        <td><a href="@("/Personne/SupprimerPersonne?Id=" + @personne.Id)">Supprimer</a></td>
+                        <td><a href="@("/Personne/ModifierPersonne?Id=" + personne.Id)">Modifier</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>

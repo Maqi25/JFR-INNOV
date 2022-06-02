@@ -9,23 +9,32 @@
         <fieldset>
             <legend>Modifier une personne : </legend>
             @Html.LabelFor(m => Model.Nom)
-            @Html.TextBoxFor(m => Model.Nom)
+            <p style="margin:0px 10px 5px 0px">@Html.TextBoxFor(m => Model.Nom)</p>
+            
             
              @Html.LabelFor(m => Model.Prenom)
-            @Html.TextBoxFor(m => Model.Prenom)
+             <p style="margin:0px 10px 5px 0px">@Html.TextBoxFor(m => Model.Prenom)</p>
+           @* @Html.TextBoxFor(m => Model.Prenom)*@
+
+            
             @*@Html.ValidationMessageFor(m => Model.Lieu)*@
-            <br />
+           
              @Html.LabelFor(m => Model.Email)
-             @Html.TextBoxFor(m => Model.Email)
+             <p style="margin:0px 10px 5px 0px">@Html.TextBoxFor(m => Model.Email)</p>
+             @*@Html.TextBoxFor(m => Model.Email)*@
 
             @Html.LabelFor(m => Model.NumeroTel)
-             @Html.TextBoxFor(m => Model.NumeroTel)
+             <p style="margin:0px 10px 5px 0px">@Html.TextBoxFor(m => Model.NumeroTel)</p>
+             @*@Html.TextBoxFor(m => Model.NumeroTel)*@
+         
+             @Html.LabelFor(m => Model.Adresse)
+             <p style="margin:0px 10px 5px 0px">@Html.TextBoxFor(m => Model.Adresse)</p>
+             @*@Html.TextBoxFor(m => Model.Adresse)*@
            
-              @Html.LabelFor(m => Model.Adresse)
-             @Html.TextBoxFor(m => Model.Adresse)
+              
            
             @*@Html.ValidationMessageFor(m => Model.Telephone)*@
-            <br />
+      
             <input type="submit" value="Modifier" />
         </fieldset>
 
@@ -34,11 +43,11 @@
     <script type="text/javascript" src="~/Scripts/jquery.validate.unobtrusive.js"></script>*@
     }
 
-    @section Menu {
+   @* @section Menu {
      <ul style="display:grid" >
                 <li class="selectionne">@Html.ActionLink("Accueil", "Index")</li>
                 <li>@Html.ActionLink("Modifier", "ModifierPersonne", "Personne")</li>
                 <li>@Html.ActionLink("Créer", "CreerPersonne", "Personne")</li>
                 <li>@Html.ActionLink("Supprimer", "SupprimerPersonne", "Personne")</li>
      </ul>
-              }
+              }*@

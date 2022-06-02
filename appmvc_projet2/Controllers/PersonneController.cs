@@ -1,15 +1,24 @@
 ﻿using appmvc_projet2.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace appmvc_projet2.Controllers
 {
     public class PersonneController : Controller
     {
-       /* public IActionResult Index()
+        public IActionResult ListePersonnes()
         {
-            return View();
-        }*/
+            using (Dal dal = new Dal())
+            {
+                List<Personne> personnes = dal.ObtientToutesLesPersonnes();
+                if (personnes == null)
+                {
+                    return View("Error");
+                }
+                return View(personnes);
+            }
+        }
 
         public IActionResult ModifierPersonne(int id)
         {
