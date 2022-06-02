@@ -7908,19 +7908,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\romua\\.nuget\\packages\\": {}
+    "C:\\Users\\biasj\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
+      "projectUniqueName": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
       "projectName": "XunitTestProject2",
-      "projectPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
-      "packagesPath": "C:\\Users\\romua\\.nuget\\packages\\",
-      "outputPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\XunitTestProject2\\obj\\",
+      "projectPath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\XunitTestProject2\\XunitTestProject2.csproj",
+      "packagesPath": "C:\\Users\\biasj\\.nuget\\packages\\",
+      "outputPath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\XunitTestProject2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\romua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\biasj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7934,8 +7934,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
-              "projectPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj"
+            "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
+              "projectPath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj"
             }
           }
         }
@@ -7986,7 +7986,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

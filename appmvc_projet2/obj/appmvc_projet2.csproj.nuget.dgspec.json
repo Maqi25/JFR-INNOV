@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {}
+    "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {}
   },
   "projects": {
-    "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
+    "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+        "projectUniqueName": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
         "projectName": "appmvc_projet2",
-        "projectPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
-        "packagesPath": "C:\\Users\\romua\\.nuget\\packages\\",
-        "outputPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\obj\\",
+        "projectPath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+        "packagesPath": "C:\\Users\\biasj\\.nuget\\packages\\",
+        "outputPath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\biasj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -42,7 +42,7 @@ namespace appmvc_projet2.Models
                     Adresse = "10 rue de Paris, Grenoble",
                     NumeroTel = "7896541213"
                 },
-                 new Personne
+                 new Personne //lier la personneid avec la personne inscrite
                  {
                      Id = 3,
                      Nom = "Nguenga",
