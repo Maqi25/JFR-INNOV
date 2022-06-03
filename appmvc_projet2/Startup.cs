@@ -26,7 +26,7 @@ namespace appmvc_projet2
 
             using (BddContext ctx = new BddContext())
             {
-                ctx.InitializeDb();
+                //ctx.InitializeDb();
             }
             /* using (Dal dal = new Dal())
              {

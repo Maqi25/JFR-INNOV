@@ -14,7 +14,7 @@ namespace XunitTestProject2
             using (Dal dal = new Dal())
             {
                 // Nous supprimons et créons la db avant le test
-                dal.DeleteCreateDatabase();
+               // dal.DeleteCreateDatabase();
                 // Nous créons une personne
 
                 int id = dal.CreerPersonne("joe","jack","5bis ananas paris","joejack@gmail.com","0907030506");

@@ -5,7 +5,7 @@ namespace appmvc_projet2.Models
 {
     public interface IDal : IDisposable
     {
-        void DeleteCreateDatabase();
+        //void DeleteCreateDatabase();
         List<PersonneInscrite> ObtientToutessLesPersonneInscrites();
         List<Personne> ObtientToutesLesPersonnes();
 

@@ -19,7 +19,7 @@ namespace appmvc_projet2.Models
             optionsBuilder.UseMySql("server=localhost;user id=root;password=2020;database=jfrinnov");
         }
 
-        public void InitializeDb()
+        /*public void InitializeDb()
         {
             this.Database.EnsureDeleted();
             this.Database.EnsureCreated();
@@ -53,7 +53,7 @@ namespace appmvc_projet2.Models
                  }
             );
             this.SaveChanges();
-        }
+        }*/
 
 
     }

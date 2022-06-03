@@ -10,11 +10,11 @@ namespace appmvc_projet2.Models
         {
             _bddContext = new BddContext();
         }
-        public void DeleteCreateDatabase()
+       /* public void DeleteCreateDatabase()
         {
             _bddContext.Database.EnsureDeleted();
             _bddContext.Database.EnsureCreated();
-        }
+        }*/
 
         public List<PersonneInscrite> ObtientToutessLesPersonneInscrites()
         {
@@ -30,7 +30,7 @@ namespace appmvc_projet2.Models
         {
             PersonneInscrite personneInscrite = new PersonneInscrite() 
             { 
-              PersonneId = personneId,
+              //PersonneId = personneId,
                 Statut = statut
             };
             _bddContext.PersonneInscrites.Add(personneInscrite);    
