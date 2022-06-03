@@ -6,10 +6,10 @@ namespace appmvc_projet2.Controllers
 {
     public class PersonneController : Controller
     {
-       /* public IActionResult Index()
-        {
-            return View();
-        }*/
+        /* public IActionResult Index()
+         {
+             return View();
+         }*/
 
         public IActionResult ModifierPersonne(int id)
         {
@@ -28,7 +28,7 @@ namespace appmvc_projet2.Controllers
             return View("Error");
         }
 
-        
+
         [HttpPost]
         public IActionResult ModifierPersonne(Personne personne)
         {
@@ -43,8 +43,24 @@ namespace appmvc_projet2.Controllers
             return View("Error");
         }
 
+        public IActionResult CreerPersonne()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CreerPersonne(Personne personne)
+        {
+
+
+            using (Dal dal = new Dal())
+            {
+                dal.CreerPersonne(personne);
+                return RedirectToAction("CreerPersonne");
+            }
+         
+        }
+
 
     }
-
-  
 }

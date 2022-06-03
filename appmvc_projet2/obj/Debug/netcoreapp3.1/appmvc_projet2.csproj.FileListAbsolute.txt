@@ -126,3 +126,5 @@ D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.pdb
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.genruntimeconfig.cache
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Layout.cshtml.g.cs
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\Razor\Views\Personne\CreerCompte.cshtml.g.cs
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\Razor\Views\Personne\CreerPersonne.cshtml.g.cs

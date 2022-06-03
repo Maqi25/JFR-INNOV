@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace appmvc_projet2.Models
 {
@@ -23,15 +24,21 @@ namespace appmvc_projet2.Models
         {
             this.Database.EnsureDeleted();
             this.Database.EnsureCreated();
+
             this.Personnes.AddRange(
                 new Personne
                 {
                     Id = 1,
                     Nom = "Ferrie",
                     Prenom = "Fred",
+                    DateNaissance = new DateTime(2021, 12, 15),
                     Email = "fredferrie@gmail.com",
+                    Password = "fffff",
                     Adresse = "10 rue de Paris, Paris",
-                    NumeroTel = "123456789"
+                    NumeroTel = "123456789",
+                    Statut = "Provider",
+                    Role = Role.ReadOnly
+
                 },
                 new Personne
                 {
@@ -40,7 +47,11 @@ namespace appmvc_projet2.Models
                     Prenom = "Jules",
                     Email = "julesbias@gmail.com",
                     Adresse = "10 rue de Paris, Grenoble",
-                    NumeroTel = "7896541213"
+                    NumeroTel = "7896541213",
+                    DateNaissance = new DateTime(2021, 12, 15),
+                    Statut = "Provider",
+                    Password = "fffff",
+                    Role = Role.Admin
                 },
                  new Personne
                  {
@@ -49,7 +60,11 @@ namespace appmvc_projet2.Models
                      Prenom = "Romuald",
                      Email = "romualdnguengas@gmail.com",
                      Adresse = "10 rue de Paris, Suresnes",
-                     NumeroTel = "45698712"
+                     NumeroTel = "45698712",
+                     DateNaissance = new DateTime(2021, 12, 15),
+                     Statut = "Provider",
+                     Password = "fffff",
+                     Role = Role.Admin
                  }
             );
             this.SaveChanges();

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace appmvc_projet2.Models
@@ -15,29 +16,31 @@ namespace appmvc_projet2.Models
             _bddContext.Database.EnsureDeleted();
             _bddContext.Database.EnsureCreated();
         }
-
+        public void Dispose()
+        {
+            _bddContext.Dispose();
+        }
         public List<PersonneInscrite> ObtientToutessLesPersonneInscrites()
         {
             return _bddContext.PersonneInscrites.ToList();
         }
 
-        public void Dispose()
-        {
-            _bddContext.Dispose();
-        }
+     
 
-        public int CreerPersonneInscrite(int personneId,string statut)
+        public int CreerPersonneInscrite(int personneId, string statut)
         {
-            PersonneInscrite personneInscrite = new PersonneInscrite() 
-            { 
-              PersonneId = personneId,
+            PersonneInscrite personneInscrite = new PersonneInscrite()
+            {
+                PersonneId = personneId,
                 Statut = statut
             };
-            _bddContext.PersonneInscrites.Add(personneInscrite);    
+            _bddContext.PersonneInscrites.Add(personneInscrite);
             _bddContext.SaveChanges();
             return personneInscrite.Id;
         }
-        public int CreerPersonne(string nom, string prenom, string adresse, string email, string numeroTel)
+        public int CreerPersonne(string nom, string prenom, string adresse, string email, 
+            string numeroTel, string mdp, string statut, 
+            Role role, DateTime datenaissance)
         {
             Personne personne = new Personne()
             {
@@ -45,13 +48,21 @@ namespace appmvc_projet2.Models
                 Prenom = prenom,
                 Adresse = adresse,
                 Email = email,
-                NumeroTel = numeroTel
-
-
+                NumeroTel = numeroTel,
+                Password = mdp,
+                Statut = statut,
+              //  DateNaissance = datenaissance,
+                Role = Role.Admin
             };
             _bddContext.Personnes.Add(personne);
             _bddContext.SaveChanges();
             return personne.Id;
+        }
+
+        public void CreerPersonne(Personne personne)
+        {
+            _bddContext.Personnes.Update(personne);
+            _bddContext.SaveChanges();
         }
 
         public void ModifierPersonne(int id, string nom, string prenom, string adresse, string email, string numeroTel)
@@ -81,6 +92,19 @@ namespace appmvc_projet2.Models
             return _bddContext.Personnes.ToList();
         }
 
-        
+        public void ModifierPersonneInscrite(int id, string nom, string prenom, string adresse, string email, string numeroTel)
+        {
+            throw new System.NotImplementedException();
+        }
+
+       /* public void CreerCompte()
+        {
+            using (Dal dal = new Dal())
+            {
+
+                int id = dal.CreerPersonne("joe", "jack", "5bis ananas paris", "joejack@gmail.com", "0907030506");
+                dal.CreerPersonneInscrite(id, "provider");
+            }
+        }*/
     }
 }

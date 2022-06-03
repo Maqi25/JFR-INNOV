@@ -17,8 +17,8 @@ namespace XunitTestProject2
                 dal.DeleteCreateDatabase();
                 // Nous créons une personne
 
-                int id = dal.CreerPersonne("joe","jack","5bis ananas paris","joejack@gmail.com","0907030506");
-                dal.CreerPersonneInscrite(id,"provider");
+               // int id = dal.CreerPersonne("joe","jack","5bis ananas paris","joejack@gmail.com","0907030506");
+               // dal.CreerPersonneInscrite(id,"provider");
 
                 // Nous vérifions que la personne a bien été créée
                 List<PersonneInscrite> personneInscrites = dal.ObtientToutessLesPersonneInscrites();

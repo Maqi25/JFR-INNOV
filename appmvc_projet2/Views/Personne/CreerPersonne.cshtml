@@ -1,0 +1,61 @@
+﻿@model appmvc_projet2.Models.Personne
+@{
+    ViewBag.Title = "Créer";
+    Layout = "Layout";
+}
+
+
+
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            <legend>Créer une personne : </legend>
+            @Html.LabelFor(m => Model.Nom)
+            @Html.TextBoxFor(m => Model.Nom)
+            
+             @Html.LabelFor(m => Model.Prenom)
+            @Html.TextBoxFor(m => Model.Prenom)
+            @*@Html.ValidationMessageFor(m => Model.Lieu)*@
+            <br />
+             @Html.LabelFor(m => Model.Email)
+             @Html.TextBoxFor(m => Model.Email)
+
+             @Html.LabelFor(m => Model.DateNaissance)
+             @Html.TextBoxFor(m => m.DateNaissance, "{0:yyyy-MM-dd}", 
+             new {@type = "date"})
+
+             @Html.LabelFor(m => Model.Password)
+             @Html.TextBoxFor(m => Model.Password)
+
+             @Html.LabelFor(m => Model.Statut)
+             @Html.TextBoxFor(m => Model.Statut)
+
+            @Html.LabelFor(m => Model.NumeroTel)
+             @Html.TextBoxFor(m => Model.NumeroTel)
+           
+              @Html.LabelFor(m => Model.Adresse)
+             @Html.TextBoxFor(m => Model.Adresse)
+           
+            @*@Html.ValidationMessageFor(m => Model.Telephone)*@
+            <br />
+            <input type="submit" value="Créer" />
+
+         
+        </fieldset>
+
+    }
+
+    
+     @* <script type="text/javascript" src="~/Scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate-vsdoc.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate.unobtrusive.js"></script>*@
+
+@*    @section Menu {
+     <ul style="display:grid" >
+                <li class="selectionne">@Html.ActionLink("Accueil", "Index")</li>
+                <li>@Html.ActionLink("Créer", "CreerPersonne", "Personne")</li>
+                <li>@Html.ActionLink("Modifier", "ModifierPersonne", "Personne")</li>
+                
+                <li>@Html.ActionLink("Supprimer", "SupprimerPersonne", "Personne")</li>
+     </ul>
+              }*@

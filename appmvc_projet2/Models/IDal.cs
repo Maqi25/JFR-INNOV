@@ -12,7 +12,15 @@ namespace appmvc_projet2.Models
         void ModifierPersonne(int id, string nom, string prenom, string adresse,
             string email, string numeroTel);
         int CreerPersonneInscrite(int personneId,string statut);
-        int CreerPersonne(string nom, string prenom, string adresse,
+
+       /* void CreerCompte();
+*/
+        void ModifierPersonneInscrite(int id, string nom, string prenom, string adresse,
             string email, string numeroTel);
+        int CreerPersonne(string nom, string prenom, string adresse, 
+            string email, string numeroTel, string mdp, string statut,
+            Role role, DateTime datenaissance);
+
+
     }
 }
