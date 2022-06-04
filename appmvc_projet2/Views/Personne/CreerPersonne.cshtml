@@ -1,49 +1,113 @@
 ﻿@model appmvc_projet2.Models.Personne
 @{
-    ViewBag.Title = "Créer";
+    //ViewBag.Title = "Créer";
     Layout = "Layout";
 }
 
+<!-- Home Section-->
+<section class="page-section portfolio mt-5">
+
+        <div class="container">
+		        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Inscription</h2>
+		        <!-- Icon Divider-->
+		        <div class="divider-custom">
+			        <div class="divider-custom-line"></div>
+			        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+			        <div class="divider-custom-line"></div>
+		        </div>
+		        <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+			             @using (Html.BeginForm())
+                         {  
+                           <div class="row">
+                                  <div class="col">
+                                        <div class="form-floating mb-3">
+                                            @Html.TextBoxFor(m => Model.Nom, new { @class = "form-control", placeholder = "Nom" })
+                                            @Html.LabelFor(m => Model.Nom)
+                                        </div>
+                                  </div>
+
+                                <div class="col">
+                                    <div class="form-floating mb-3">
+                                        @Html.TextBoxFor(m => Model.Prenom, new { @class = "form-control", placeholder = "Prénom" })
+                                           @Html.LabelFor(m => Model.Prenom)
+                                  
+                                    </div>
+                                </div>
+
+                           </div>
 
 
-    @using (Html.BeginForm())
-    {
-        <fieldset>
-            <legend>Créer une personne : </legend>
-            @Html.LabelFor(m => Model.Nom)
-            @Html.TextBoxFor(m => Model.Nom)
-            
-             @Html.LabelFor(m => Model.Prenom)
-            @Html.TextBoxFor(m => Model.Prenom)
-            @*@Html.ValidationMessageFor(m => Model.Lieu)*@
-            <br />
-             @Html.LabelFor(m => Model.Email)
-             @Html.TextBoxFor(m => Model.Email)
+                            <div class="row">
+                                  <div class="col">
+                                             <div class="form-floating mb-3">
+                                                 @Html.TextBoxFor(m => Model.Email, new { @class = "form-control", placeholder = "Email" })
+                                                @Html.LabelFor(m => Model.Email)
+                                            </div>
+                                  </div>
 
-             @Html.LabelFor(m => Model.DateNaissance)
-             @Html.TextBoxFor(m => m.DateNaissance, "{0:yyyy-MM-dd}", 
-             new {@type = "date"})
+                                <div class="col">
+                                    <div class="form-floating mb-3">
+                                         @Html.TextBoxFor(m => Model.Password, new { @type = "password", @class = "form-control", placeholder = "Mot de Passe" })
+                                        @Html.LabelFor(m => Model.Password)
+                                    
+                                    </div>
+                                </div>
 
-             @Html.LabelFor(m => Model.Password)
-             @Html.TextBoxFor(m => Model.Password)
+                           </div>
+                            
 
-             @Html.LabelFor(m => Model.Statut)
-             @Html.TextBoxFor(m => Model.Statut)
+                            <div class="row">
+                                  <div class="col">
+                                             <div class="form-floating mb-3">
+                                                   @Html.TextBoxFor(m => m.DateNaissance, "{0:yyyy-MM-dd}", 
+                                                 new {@type = "date", @class = "form-control", placeholder = "Date de naissance"})
+                                                      @Html.LabelFor(m => Model.DateNaissance)
+                                            </div>
+                                  </div>
 
-            @Html.LabelFor(m => Model.NumeroTel)
-             @Html.TextBoxFor(m => Model.NumeroTel)
-           
-              @Html.LabelFor(m => Model.Adresse)
-             @Html.TextBoxFor(m => Model.Adresse)
-           
-            @*@Html.ValidationMessageFor(m => Model.Telephone)*@
-            <br />
-            <input type="submit" value="Créer" />
+                                <div class="col">
+                                    <div class="form-floating mb-3">
+                                         @Html.TextBoxFor(m => Model.NumeroTel, new { @class = "form-control", placeholder = "Numéro de téléphone" })
+                                         @Html.LabelFor(m => Model.NumeroTel)
+                                    </div>
+                                </div>
+
+                           </div>
+                             
+
+                             <div class="row">
+                                  <div class="col">
+                                             <div class="form-floating mb-3">
+                                                 @Html.TextBoxFor(m => Model.Adresse, new { @class = "form-control", placeholder = "Adresse postale" })
+                                                 @Html.LabelFor(m => Model.Adresse)
+                                            </div>
+                                  </div>
+
+                                <div class="col">
+                                    <div class="form-floating mb-3">
+                                        @Html.TextBoxFor(m => Model.Statut, new { @class = "form-control", placeholder = "Statut" })
+                                        @Html.LabelFor(m => Model.Statut)
+                                    </div>
+                                </div>
+
+                           </div>
+   
+                           
+                            <button class="btn btn-primary btn-xl" type="submit">Créer</button>
 
          
-        </fieldset>
+       
 
-    }
+                         }
+
+                    </div>
+
+		        </div>
+       </div>
+ </section>
+
+   
 
     
      @* <script type="text/javascript" src="~/Scripts/jquery-3.3.1.js"></script>
