@@ -1,19 +1,27 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using appmvc_projet2.Models.Reservations;
+using appmvc_projet2.Models.Services;
+using appmvc_projet2.Models.Services.AidePersonnes;
+using appmvc_projet2.Models.Services.LocationVehicules;
+using appmvc_projet2.Models.Services.TransportColis;
+using appmvc_projet2.Models.Services.TransportPersonnes;
+using Microsoft.EntityFrameworkCore;
 using System;
+
 
 namespace appmvc_projet2.Models
 {
     public class BddContext : DbContext
     {
-        public DbSet<AideALaPersonne> AideALaPersonnes { get; set; }
+        public DbSet<AideALaPersonne> AideAuxPersonnes { get; set; }
         public DbSet<Employe> Employes { get; set; }
         public DbSet<Personne> Personnes { get; set; }
+        public DbSet<Service> Services { get; set; }
         public DbSet<LocationDeVehicule> LocationDeVehicules { get; set; }
         public DbSet<PersonneInscrite> PersonneInscrites { get; set; }
 
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<TransportDeColis> TransportDeColis { get; set; }
-        public DbSet<TransportDePersonne> TransportDePersonnes { get; set; }
+        public DbSet<TransportDePersonnes> TransportDePersonnes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

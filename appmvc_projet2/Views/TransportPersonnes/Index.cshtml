@@ -1,0 +1,40 @@
+﻿
+@model appmvc_projet2.ViewModels.ServiceViewModel
+@{
+    Layout = "Layout";
+}
+
+<!DOCTYPE html> 
+<html>
+
+    <head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    </head>
+    <body>
+         <div>Je suis la vue index pour le transport de personnes</div>
+
+     
+         <div>
+             <ul>
+                 <li>@Model.Service.NomDuService</li>
+                 <li>@Model.Service.DateDeDebut</li>
+                 <li>@Model.Service.LieuDeDepart</li>
+                 <li>@Model.Service.LieuArrivee</li>
+                 <li>@Model.Service.DateDeFin</li>
+                 <li>@Model.Service.Montant €</li>
+             </ul>
+         </div>
+         <div>
+             <ul>
+                 <li>@Model.TransportDePersonnes.NombreDePlace places</li>
+             </ul>
+         </div>
+
+
+    </body>
+
+</html>
+
+
+

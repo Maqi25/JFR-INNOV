@@ -1,3 +1,11 @@
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.csproj.AssemblyReference.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.AssemblyInfoInputs.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.AssemblyInfo.cs
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.csproj.CoreCompileInputs.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.MvcApplicationPartsAssemblyInfo.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.RazorAssemblyInfo.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.RazorAssemblyInfo.cs
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\appmvc_projet2.exe
@@ -103,14 +111,6 @@ D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.csproj.AssemblyReference.cache
-D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.GeneratedMSBuildEditorConfig.editorconfig
-D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.AssemblyInfoInputs.cache
-D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.AssemblyInfo.cs
-D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.csproj.CoreCompileInputs.cache
-D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.MvcApplicationPartsAssemblyInfo.cache
-D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.RazorAssemblyInfo.cache
-D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.RazorAssemblyInfo.cs
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\staticwebassets\appmvc_projet2.StaticWebAssets.Manifest.cache
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.TagHelpers.input.cache
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.TagHelpers.output.cache
@@ -128,3 +128,9 @@ D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.dll
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.pdb
 D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\appmvc_projet2.genruntimeconfig.cache
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ServiceView.cshtml.g.cs
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\Razor\Views\TransportPersonnes\Creer.cshtml.g.cs
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\Razor\Views\TransportPersonnes\Index.cshtml.g.cs
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\Razor\Views\TransportColis\Creer.cshtml.g.cs
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\Razor\Views\LocationVehicule\Creer.cshtml.g.cs
+D:\Formation_ISIKA\ISIKA\WorkCDA17\Projet2\JRFInnov\appmvc_projet2\appmvc_projet2\obj\Debug\netcoreapp3.1\Razor\Views\AidePersonne\Creer.cshtml.g.cs
