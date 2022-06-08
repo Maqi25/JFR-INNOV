@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32505.173
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appmvc_projet2", "appmvc_projet2\appmvc_projet2.csproj", "{B22107BF-7B35-4DBB-8896-356DA4985A59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appmvc_projet2", "appmvc_projet2\appmvc_projet2.csproj", "{B22107BF-7B35-4DBB-8896-356DA4985A59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XunitTestProject2", "XunitTestProject2\XunitTestProject2.csproj", "{06BDD104-4211-47DC-96AE-2FF62F584224}"
 EndProject

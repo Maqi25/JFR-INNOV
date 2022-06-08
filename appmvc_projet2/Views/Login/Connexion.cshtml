@@ -1,0 +1,72 @@
+﻿@model appmvc_projet2.ViewModels.UtilisateurViewModel
+@{
+
+    // ViewData["Title"] = "Connexion";
+    Layout = Layout;
+}
+<h1>Connexion</h1>
+
+@if (Model.Authentifie)
+{
+    <h3>
+        Vous êtes déjà authentifié avec le login :
+        @Model.Personne.Prenom
+    </h3>
+    @Html.ActionLink("Voulez-vous vous déconnecter ?", "Deconnexion")
+}
+else
+{
+    <p>
+        Veuillez vous authentifier :
+    </p>
+
+    <section class="page-section portfolio mt-5">
+
+        <div class="container">
+            @*   <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Connexion</h2>*@
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    @using (Html.BeginForm())
+                    {
+                        <div class="form-floating mb-3">
+                            @Html.TextBoxFor(m => Model.Personne.Email, new { @class = "form-control", placeholder = "Email" })
+                            @Html.LabelFor(model => model.Personne.Email)
+                            @Html.ValidationMessageFor(model => model.Personne.Email)
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            @Html.TextBoxFor(m => Model.Personne.Password, new { @class = "form-control", placeholder = "Mot de Passe" })
+                            @Html.LabelFor(model => model.Personne.Password)
+                            @Html.ValidationMessageFor(model => model.Personne.Password)
+                        </div>
+
+
+                        <!-- Submit Button-->
+                        <button class="btn btn-primary btn-xl" type="submit">Se Connecter</button>
+
+
+                        <br />
+                        <br />
+                        @Html.ActionLink("Vous n'avez pas encore de compte ? cliquez ici pour Créer un compte", "CreerCompte")
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+}
+
+
+
+
+
+

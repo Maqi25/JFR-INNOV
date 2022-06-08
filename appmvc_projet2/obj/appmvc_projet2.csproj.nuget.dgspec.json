@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {}
+    "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\ElementGit\\JFR-INNOV\\appmvc_projet2\\appmvc_projet2.csproj": {}
   },
   "projects": {
-    "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj": {
+    "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\ElementGit\\JFR-INNOV\\appmvc_projet2\\appmvc_projet2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+        "projectUniqueName": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\ElementGit\\JFR-INNOV\\appmvc_projet2\\appmvc_projet2.csproj",
         "projectName": "appmvc_projet2",
-        "projectPath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+        "projectPath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\ElementGit\\JFR-INNOV\\appmvc_projet2\\appmvc_projet2.csproj",
         "packagesPath": "C:\\Users\\biasj\\.nuget\\packages\\",
-        "outputPath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\obj\\",
+        "outputPath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\ElementGit\\JFR-INNOV\\appmvc_projet2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\biasj\\AppData\\Roaming\\NuGet\\NuGet.Config",

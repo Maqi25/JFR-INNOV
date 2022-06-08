@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AObb3wYMN0dxolvHIyPIcm4qlQyhcZxE3ZN/cMME4bwspq6/HCr674kp2jw09v3ORcj2vg7CbHFR4VYXg4ujYg==",
+  "dgSpecHash": "QxuqQkxm9NSTnh/lmn3znsz+aX1EFDTLYEjBNQaOl8j3xRntDcDEduR4Njr36WxoHfEeHbiuU9XO+tyHtonSEw==",
   "success": true,
-  "projectFilePath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\CodeEquipe\\Appli\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+  "projectFilePath": "D:\\ISIKA\\projets\\Projrt2\\Elements_Projet\\ElementGit\\JFR-INNOV\\appmvc_projet2\\appmvc_projet2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\biasj\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\biasj\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
