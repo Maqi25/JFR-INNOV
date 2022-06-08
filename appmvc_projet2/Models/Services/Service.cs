@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace appmvc_projet2.Models.Services
@@ -20,6 +19,4 @@ namespace appmvc_projet2.Models.Services
         public DateTime DateDeFin { get; set; }
 
     }
-
-   
 }

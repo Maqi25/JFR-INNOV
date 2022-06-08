@@ -1,0 +1,13 @@
+﻿.col-lg-8 col-xl-7 Count {
+    border: 1px solid grey;
+    padding: 46px 25px;
+    border-radius: 10px;
+}
+.img-jfr{
+    width:5px;
+    height:5px;
+}
+.logo-jfr{
+    align-items:center;
+    align-self:center;
+}

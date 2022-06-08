@@ -6,21 +6,12 @@ namespace appmvc_projet2.Models
     public interface IDal : IDisposable
     {
         void DeleteCreateDatabase();
-        List<PersonneInscrite> ObtientToutessLesPersonneInscrites();
         List<Personne> ObtientToutesLesPersonnes();
 
-        void ModifierPersonne(int id, string nom, string prenom, string adresse,
-            string email, string numeroTel);
-        int CreerPersonneInscrite(int personneId,string statut);
+        Personne ObtenirUtilisateur(int id);
+        Personne ObtenirUtilisateur(string userId);
+        Personne Authentifier(string Email, string password);
 
-       /* void CreerCompte();
-*/
-        void ModifierPersonneInscrite(int id, string nom, string prenom, string adresse,
-            string email, string numeroTel);
-        int CreerPersonne(string nom, string prenom, string adresse, 
-            string email, string numeroTel, string mdp, string statut,
-            Role role, DateTime datenaissance);
-
-
+        Personne AjouterUtilisateur(string nom, string prenom, string adresse, string email, string numeroTel, string password, DateTime dateNaissance, Statut statut, Role role = Role.Admin);
     }
 }

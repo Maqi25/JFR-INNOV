@@ -5,28 +5,65 @@ using appmvc_projet2.Models.Services.LocationVehicules;
 using appmvc_projet2.Models.Services.TransportColis;
 using appmvc_projet2.Models.Services.TransportPersonnes;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
+
 
 
 namespace appmvc_projet2.Models
 {
     public class BddContext : DbContext
     {
-        public DbSet<AideALaPersonne> AideAuxPersonnes { get; set; }
-        public DbSet<Employe> Employes { get; set; }
-        public DbSet<Personne> Personnes { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<LocationDeVehicule> LocationDeVehicules { get; set; }
-        public DbSet<PersonneInscrite> PersonneInscrites { get; set; }
-
+        public DbSet<AideALaPersonne> AideAuxPersonnes { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<TransportDeColis> TransportDeColis { get; set; }
         public DbSet<TransportDePersonnes> TransportDePersonnes { get; set; }
+        public DbSet<AideALaPersonne> AideALaPersonnes { get; set; }
+        public DbSet<Employe> Employes { get; set; }
+        public DbSet<Personne> Personnes { get; set; }
+        public DbSet<PersonneInscrite> PersonneInscrites { get; set; }
+
+        
+        
+        
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql("server=localhost;user id=root;password=2020;database=jfrinnov");
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                optionsBuilder.UseMySql("server=localhost;user id=root;password=2020;database=ProjetJFR");
+            }
+            else
+            {
+                IConfiguration configuration = new ConfigurationBuilder()
+                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                .AddJsonFile("appsettings.json")
+                .Build();
+                optionsBuilder.UseMySql(configuration.GetConnectionString("DefaultConnection"));
+            }
+
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // specification on configuration
+
+            //declare non nullable columns
+
+
+            modelBuilder.Entity<Personne>().Property(u => u.Nom).IsRequired();
+            modelBuilder.Entity<Personne>().Property(t => t.Prenom).IsRequired();
+            modelBuilder.Entity<Personne>().Property(u => u.Email).IsRequired();
+            modelBuilder.Entity<Personne>().Property(u => u.Adresse).IsRequired();
+            modelBuilder.Entity<Personne>().Property(u => u.NumeroTel).IsRequired();
+            modelBuilder.Entity<Personne>().Property(u => u.Statut).IsRequired();
+            modelBuilder.Entity<Personne>().Property(u => u.Password).IsRequired();
+            modelBuilder.Entity<Personne>().Property(u => u.DateNaissance).IsRequired();
+
+        }
+
 
         public void InitializeDb()
         {
@@ -41,11 +78,11 @@ namespace appmvc_projet2.Models
                     Prenom = "Fred",
                     DateNaissance = new DateTime(2021, 12, 15),
                     Email = "fredferrie@gmail.com",
-                    Password = "fffff",
+                    Password = Dal.EncodeMD5("1234567890"),
                     Adresse = "10 rue de Paris, Paris",
-                    NumeroTel = "123456789",
-                    Statut = "Provider",
-                    Role = Role.ReadOnly
+                    NumeroTel = "1234567890",
+                    Statut = Statut.provider,
+                    Role = Role.ReadWrite
 
                 },
                 new Personne
@@ -57,9 +94,9 @@ namespace appmvc_projet2.Models
                     Adresse = "10 rue de Paris, Grenoble",
                     NumeroTel = "7896541213",
                     DateNaissance = new DateTime(2021, 12, 15),
-                    Statut = "Provider",
-                    Password = "fffff",
-                    Role = Role.Admin
+                    Statut = Statut.provider,
+                    Password = Dal.EncodeMD5("1234567890"),
+                    Role = Role.ReadOnly
                 },
                  new Personne
                  {
@@ -70,9 +107,9 @@ namespace appmvc_projet2.Models
                      Adresse = "10 rue de Paris, Suresnes",
                      NumeroTel = "45698712",
                      DateNaissance = new DateTime(2021, 12, 15),
-                     Statut = "Provider",
-                     Password = "fffff",
-                     Role = Role.Admin
+                     Statut = Statut.consummer,
+                     Password = Dal.EncodeMD5("1234567890"),
+                     Role = Role.ReadWrite
                  }
             );
             this.SaveChanges();

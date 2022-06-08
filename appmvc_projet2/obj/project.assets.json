@@ -6841,11 +6841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+      "projectUniqueName": "C:\\Users\\romua\\Downloads\\JFR-INNOV-master - connexion deconnexion\\JFR-INNOV-master - connexion deconnexion\\JFR-INNOV-master\\appmvc_projet2\\appmvc_projet2.csproj",
       "projectName": "appmvc_projet2",
-      "projectPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\appmvc_projet2.csproj",
+      "projectPath": "C:\\Users\\romua\\Downloads\\JFR-INNOV-master - connexion deconnexion\\JFR-INNOV-master - connexion deconnexion\\JFR-INNOV-master\\appmvc_projet2\\appmvc_projet2.csproj",
       "packagesPath": "C:\\Users\\romua\\.nuget\\packages\\",
-      "outputPath": "D:\\Formation_ISIKA\\ISIKA\\WorkCDA17\\Projet2\\JRFInnov\\appmvc_projet2\\appmvc_projet2\\obj\\",
+      "outputPath": "C:\\Users\\romua\\Downloads\\JFR-INNOV-master - connexion deconnexion\\JFR-INNOV-master - connexion deconnexion\\JFR-INNOV-master\\appmvc_projet2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\romua\\AppData\\Roaming\\NuGet\\NuGet.Config",

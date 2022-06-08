@@ -1,0 +1,121 @@
+﻿
+@model appmvc_projet2.ViewModels.UtilisateurViewModel
+@{
+    Layout = "Layout";
+    //ViewData["Title"] = "CreerCompte";
+}
+
+
+<!-- Home Section-->
+
+<body>
+    <section class="page-section portfolio mt-5">
+
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Inscription</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    @using (Html.BeginForm())
+                    {
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    @Html.TextBoxFor(m => Model.Personne.Nom, new { @class = "form-control", placeholder = "Nom" })
+                                    @Html.LabelFor(model => model.Personne.Nom)
+                                    @Html.ValidationMessageFor(model => model.Personne.Nom)
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    @Html.TextBoxFor(m => Model.Personne.Prenom, new { @class = "form-control", placeholder = "Prénom" })
+                                    @Html.LabelFor(model => model.Personne.Prenom)
+                                    @Html.ValidationMessageFor(model => model.Personne.Prenom)
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    @Html.TextBoxFor(m => Model.Personne.Adresse, new { @class = "form-control", placeholder = "Adresse" })
+                                    @Html.LabelFor(model => model.Personne.Adresse)
+                                    @Html.ValidationMessageFor(model => model.Personne.Adresse)
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    @Html.TextBoxFor(m => Model.Personne.Email, new { @class = "form-control", placeholder = "Email" })
+                                    @Html.LabelFor(model => model.Personne.Email)
+                                    @Html.ValidationMessageFor(model => model.Personne.Email)
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    @Html.TextBoxFor(m => Model.Personne.Password, new { @class = "form-control", placeholder = "Mot de Passe" })
+                                    @Html.LabelFor(model => model.Personne.Password)
+                                    @Html.ValidationMessageFor(model => model.Personne.Password)
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    @Html.TextBoxFor(m => Model.Personne.NumeroTel, new { @class = "form-control", placeholder = "Numéro de Téléphone" })
+                                    @Html.LabelFor(model => model.Personne.NumeroTel)
+                                    @Html.ValidationMessageFor(model => model.Personne.NumeroTel)
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    @Html.TextBoxFor(m => Model.Personne.DateNaissance, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control", placeholder = "Date de naissance" })
+                                    @Html.LabelFor(model => model.Personne.DateNaissance)
+                                    @Html.ValidationMessageFor(model => model.Personne.DateNaissance)
+
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    @Html.DropDownListFor(m => Model.Personne.Statut, new SelectList(Enum.GetValues(typeof(appmvc_projet2.Models.Statut))), "Sélectionnez un Statut",
+                                    new { @class = "form-control" })
+                                    @Html.LabelFor(m => Model.Personne.Statut)
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary btn-xl" type="submit">Créer</button>
+
+
+                        <br />
+                        <br />
+                        @Html.ActionLink("Vous avez déjà un compte ? cliquez ici pour vous connecter", "Connexion")
+
+                    }
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+</body>
+

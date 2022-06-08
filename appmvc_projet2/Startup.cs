@@ -1,4 +1,5 @@
 using appmvc_projet2.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -17,6 +18,12 @@ namespace appmvc_projet2
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(options =>
+            {
+                options.LoginPath = "/Login/Index";
+
+            });
             services.AddControllersWithViews();
         }
 
@@ -28,14 +35,21 @@ namespace appmvc_projet2
             {
                 ctx.InitializeDb();
             }
-
-
+            using (Dal dal = new Dal())
+            {
+                dal.DeleteCreateDatabase();
+            }
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
+
             app.UseRouting();
+
+            // permet de faire le lien avec les fonctions d'authentification
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseStaticFiles();
 
