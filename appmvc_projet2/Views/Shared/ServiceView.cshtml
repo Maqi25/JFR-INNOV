@@ -1,0 +1,79 @@
+﻿
+@model appmvc_projet2.ViewModels.ServiceViewModel
+
+                           <div class="row">
+                                  <div class="col">
+                                        <div class="form-floating mb-3">
+                                            @Html.TextBoxFor(m => Model.Service.NomDuService, new { @class = "form-control", placeholder = "Nom du service" })
+                                            @Html.LabelFor(m => Model.Service.NomDuService)
+                                        </div>
+                                  </div>
+                           </div>
+
+
+                         @*  <div class="row">
+                                  <div class="col">
+                                        <div class="form-floating mb-3">
+                                            @Html.DropDownListFor(m => Model.Service.NomDuService, new SelectList(ViewBag.listServices,"Id", "NomDuService"))
+                                            @Html.LabelFor(m => Model.Service.NomDuService)
+                                        </div>
+                                  </div>
+                           </div>*@
+
+                           
+
+                            <div class="row">
+                                 <div class="col">
+                                    <div class="form-floating mb-3">
+                                         @Html.TextBoxFor(m => Model.Service.LieuDeDepart, new { @class = "form-control", placeholder = "Lieu de départ" })
+                                        @Html.LabelFor(m => Model.Service.LieuDeDepart)
+                                    
+                                    </div>
+                                </div>
+
+                                  <div class="col">
+                                             <div class="form-floating mb-3">
+                                                 @Html.TextBoxFor(m => Model.Service.DateDeDebut, "{0:yyyy-MM-dd}", new {@type = "date", @class = "form-control", placeholder = "Date de début" })
+                                                @Html.LabelFor(m => Model.Service.DateDeDebut)
+                                            </div>
+                                  </div>
+
+                               
+
+                           </div>
+                            
+
+                            <div class="row">
+                                 <div class="col">
+                                    <div class="form-floating mb-3">
+                                         @Html.TextBoxFor(m => Model.Service.LieuArrivee, new { @class = "form-control", placeholder = "Lieu d'arrivée" })
+                                        @Html.LabelFor(m => Model.Service.LieuArrivee)
+                                    
+                                    </div>
+                                </div>
+
+                                  <div class="col">
+                                             <div class="form-floating mb-3">
+                                                   @Html.TextBoxFor(m => Model.Service.DateDeFin, "{0:yyyy-MM-dd}", 
+                                                 new {@type = "date", @class = "form-control", placeholder = "Date de fin"})
+                                                      @Html.LabelFor(m => Model.Service.DateDeFin)
+                                            </div>
+                                  </div>
+
+                                
+
+                           </div>
+                             
+
+                             <div class="row">
+                       
+                                  <div class="col">
+                                    <div class="form-floating mb-3">
+                                         @Html.TextBoxFor(m => Model.Service.Montant, new { @class = "form-control", placeholder = "Prix du service" })
+                                         @Html.LabelFor(m => Model.Service.Montant)
+                                    </div>
+                                </div>
+
+                           </div>
+
+

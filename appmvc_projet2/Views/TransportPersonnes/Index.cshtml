@@ -1,0 +1,60 @@
+﻿@model List<appmvc_projet2.Models.Services.TransportPersonnes.TransportDePersonnes>
+
+@{
+	Layout = "Layout";
+}
+		<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Liste transport de colis</h2>
+		<!-- Icon Divider-->
+		<div class="divider-custom">
+			<div class="divider-custom-line"></div>
+			<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+			<div class="divider-custom-line"></div>
+		</div>
+		<div class="row justify-content-start">
+			@foreach (var transportDePersonnes in Model)
+			{
+				string editlink = "/TransportPersonnes/Modifier/" + transportDePersonnes.Id;
+				@*string deletelink = "/TransportPersonnes/Supprimer/" + transportDePersonnes.Id;*@
+				<div class="card col-6 m-5" style="width: 25rem;">
+					<div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="card-title">Co-voiturage : De @transportDePersonnes.Service.LieuDeDepart à @transportDePersonnes.Service.LieuDeDepart</h5>
+                            <div class="my-3">
+                            <img src="@transportDePersonnes.ImagePath" width="200" height="200" />
+                            </div>
+							<h6 class="card-subtitle mb-2 text-muted">Lieu de départ : @transportDePersonnes.Service.LieuDeDepart </h6>
+							<h6 class="card-subtitle mb-2 text-muted">Date de début : @transportDePersonnes.Service.DateDeDebut </h6>
+							<h6 class="card-subtitle mb-2 text-muted">Lieu d'arrivée : @transportDePersonnes.Service.LieuDeDepart </h6>
+							<h6 class="card-subtitle mb-2 text-muted">Date de fin : @transportDePersonnes.Service.DateDeFin </h6>
+							<h6 class="card-subtitle mb-2 text-muted">Date de fin : @transportDePersonnes.Service.DateDeFin </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Modèle véhicule : @transportDePersonnes.Modele</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Couleur véhicule : @transportDePersonnes.CouleurModele </h6>
+							
+                         
+							<h6 class="card-subtitle mb-2 text-muted">Montant : @transportDePersonnes.Service.Montant €</h6>
+                        </div>
+			
+                        <div>
+                            <a href=@editlink class="card-link">Modifier</a>
+
+                            @*@if (User.IsInRole(Role.Admin.ToString()))
+                            {
+                                <a href=@deletelink class="card-link">Supprimer</a>
+                            }*@
+
+                        </div>
+						
+
+					</div>
+				</div>
+			}
+			<div class="col-4 m-5" style="width: 18rem;">
+				<a href="/TransportPersonnes/Creer">
+					<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="black" class="align-middle bi bi-plus" viewBox="0 0 16 16">
+						<path class="plus" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+					</svg>
+				</a>
+			</div>
+
+		</div>
+	

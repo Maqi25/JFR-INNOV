@@ -1,0 +1,67 @@
+﻿
+@model appmvc_projet2.ViewModels.ServiceViewModel
+@{
+    Layout = "Layout";
+}
+
+<!-- Home Section-->
+<section class="page-section portfolio mt-5">
+
+        <div class="container">
+		        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Créer Service Transport de Personnes</h2>
+		        <!-- Icon Divider-->
+		        <div class="divider-custom">
+			        <div class="divider-custom-line"></div>
+			        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+			        <div class="divider-custom-line"></div>
+		        </div>
+		        <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+
+                        
+
+			             @using (Html.BeginForm())
+                         {  
+                             @Html.Partial("ServiceView", Model);
+
+                             
+
+                           <div class="row">
+                                  <div class="col">
+                                             <div class="form-floating mb-3">
+                                                 @Html.TextBoxFor(m => Model.TransportDePersonnes.NombreDePlace, new { @class = "form-control", placeholder = "Nombre de places" })
+                                                 @Html.LabelFor(m => Model.TransportDePersonnes.NombreDePlace)
+                                            </div>
+                                  </div>
+                           </div>
+
+                             <div class="row">
+                                   <div class="col">
+                                    <div class="form-floating mb-3">
+                                        @Html.TextBoxFor(m => Model.TransportDePersonnes.Modele, new { @class = "form-control", placeholder = "Modèle du véhicule" })
+                                        @Html.LabelFor(m => Model.TransportDePersonnes.Modele)
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="form-floating mb-3">
+                                        @Html.TextBoxFor(m => Model.TransportDePersonnes.CouleurModele, new { @class = "form-control", placeholder = " couleur du véhicule" })
+                                        @Html.LabelFor(m => Model.TransportDePersonnes.CouleurModele)
+                                    </div>
+                                </div>
+
+                           </div>
+   
+                           
+                            <button class="btn btn-primary btn-xl" type="submit">Créer</button>
+
+         
+       
+
+                         }
+
+                    </div>
+
+		        </div>
+       </div>
+ </section>
