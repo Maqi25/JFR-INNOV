@@ -8,7 +8,7 @@ namespace appmvc_projet2.Models.Services.TransportColis
         void DeleteCreateDatabase();
         
         List<TransportDeColis> ObtientTousLesTransportsDeColis();
-
-        int CreerTransportDeColis(int serviceId, string nomDuColis, string volume, string format, string nature);
+        int CreerTransportDeColis(int serviceId, string nomDuColis, double volume, string format, string nature);
+        void Modifier(int id, int serviceId, string nomDuColis, double volume, string format, string nature, string imagePath);
     }
 }

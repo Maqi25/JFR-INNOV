@@ -29,10 +29,7 @@ namespace appmvc_projet2
                 ctx.InitializeDb();
             }
 
-            using (Dal dal = new Dal())
-            {
-                dal.DeleteCreateDatabase();
-            }
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

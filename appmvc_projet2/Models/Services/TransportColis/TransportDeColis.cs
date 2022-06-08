@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace appmvc_projet2.Models.Services.TransportColis
 {
@@ -15,5 +17,16 @@ namespace appmvc_projet2.Models.Services.TransportColis
         public string Format { get; set; }
         [Display(Name = "Nature du colis")]
         public string Nature { get; set; }
+        public string ImagePath { get; set; }
+        [NotMapped]
+        public IFormFile Image { get; set; }
+
+    }
+
+    public enum Nature
+    {
+        Solide, 
+        Fragile,
+        Liquide
     }
 }

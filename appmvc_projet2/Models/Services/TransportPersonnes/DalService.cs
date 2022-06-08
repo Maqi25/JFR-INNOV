@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace appmvc_projet2.Models.Services.TransportPersonnes
 {
@@ -40,6 +42,8 @@ namespace appmvc_projet2.Models.Services.TransportPersonnes
             return service.Id;
         }
 
+       
+
         public int CreerTransportDePersonnes(int serviceId, int nombreDePlace, string modele, string couleurModele)
         {
 
@@ -55,6 +59,7 @@ namespace appmvc_projet2.Models.Services.TransportPersonnes
             _bddContext.SaveChanges();
             return transportDePersonnes.Id;
         }
+       
 
         public int CreerTransportDePersonnes(TransportDePersonnes transportDePersonnes)
         {
@@ -69,14 +74,47 @@ namespace appmvc_projet2.Models.Services.TransportPersonnes
             _ = CreerTransportDePersonnes(transportDePersonnes);
         }
 
+        public void ModifierService(int id, string nomDuService, string lieuDeDepart, DateTime dateDeDebut, string lieuArrivee,  DateTime dateDeFin, double montant)
+        {
+            Service service = _bddContext.Services.Find(id);
+            if (service != null)
+            {
+                service.NomDuService = nomDuService;
+                service.LieuDeDepart = lieuDeDepart;
+                service.DateDeDebut = dateDeDebut;
+                service.LieuArrivee = lieuArrivee;
+                service.DateDeFin = dateDeFin;
+                service.Montant = montant;
+                _bddContext.SaveChanges();
+            }
+        }
+     
+        public void Modifier(int id, int serviceId, int nombreDePlace, string modele, string couleurModele, string imagePath)
+        {
+            TransportDePersonnes transportDePersonnes = _bddContext.TransportDePersonnes.Find(id);
+            if (transportDePersonnes != null)
+            {
+                transportDePersonnes.ServiceId = serviceId;
+                transportDePersonnes.NombreDePlace = nombreDePlace;
+                transportDePersonnes.Modele = modele;
+                transportDePersonnes.CouleurModele = couleurModele;
+                transportDePersonnes.ImagePath = imagePath;
+                _bddContext.SaveChanges();
+            }
+        }
+
+     
+
         public List<Service> ObtientTousLesServices()
         {
-            throw new NotImplementedException();
+            return _bddContext.Services.ToList();
         }
 
         public List<TransportDePersonnes> ObtientTousLesTransportsDePersonnes()
         {
-            throw new NotImplementedException();
+            return _bddContext.TransportDePersonnes.Include(t => t.Service).ToList();
         }
+
+    
     }
 }

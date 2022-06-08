@@ -35,9 +35,16 @@
                                             </div>
                                   </div>
 
-                                  <div class="col">
+                                 @* <div class="col">
                                              <div class="form-floating mb-3">
                                                  @Html.TextBoxFor(m => Model.TransportDeColis.Nature, new { @class = "form-control", placeholder = "Nature du colis" })
+                                                 @Html.LabelFor(m => Model.TransportDeColis.Nature)
+                                            </div>
+                                  </div>*@
+                                   <div class="col">
+                                             <div class="form-floating mb-3">
+                                                 @Html.DropDownListFor(m => Model.TransportDeColis.Nature, new SelectList(Enum.GetValues(typeof(appmvc_projet2.Models.Services.TransportColis.Nature))), "Select Nature", 
+                                                 new { @class = "form-control" })
                                                  @Html.LabelFor(m => Model.TransportDeColis.Nature)
                                             </div>
                                   </div>
@@ -59,39 +66,7 @@
                                 </div>
 
                            </div>
-@*
-                           <div class="row">
-                                  <div class="col">
-                                             <div class="form-floating mb-3">
-                                                 @Html.TextBoxFor(m => Model.NomDuColis, new { @class = "form-control", placeholder = "Nom du colis" })
-                                                 @Html.LabelFor(m => Model.NomDuColis)
-                                            </div>
-                                  </div>
 
-                                  <div class="col">
-                                             <div class="form-floating mb-3">
-                                                 @Html.TextBoxFor(m => Model.Nature, new { @class = "form-control", placeholder = "Nature du colis" })
-                                                 @Html.LabelFor(m => Model.Nature)
-                                            </div>
-                                  </div>
-                           </div>
-
-                             <div class="row">
-                                   <div class="col">
-                                    <div class="form-floating mb-3">
-                                        @Html.TextBoxFor(m => Model.Volume, new { @class = "form-control", placeholder = "Volume du colis" })
-                                        @Html.LabelFor(m => Model.Volume)
-                                    </div>
-                                </div>
-
-                                <div class="col">
-                                    <div class="form-floating mb-3">
-                                        @Html.TextBoxFor(m => Model.Format, new { @class = "form-control", placeholder = "Format du colis" })
-                                        @Html.LabelFor(m => Model.Format)
-                                    </div>
-                                </div>
-
-                           </div>*@
    
                            
                             <button class="btn btn-primary btn-xl" type="submit">Créer</button>

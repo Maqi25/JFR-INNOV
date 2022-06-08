@@ -1,0 +1,67 @@
+﻿
+@model appmvc_projet2.ViewModels.ServiceViewModel
+
+@{
+	Layout = "Layout";
+}
+
+ <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Sejours</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                @using (Html.BeginForm("Modifier", "TransportPersonnes", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                @*@using (Html.BeginForm())*@
+                {
+                    //Appel de la vue partiel ServiceView comportant les attributs de la classe Service
+                    @Html.Partial("ServiceView", Model);
+
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(model => model.TransportDePersonnes.NombreDePlace, new { @class = "form-control", placeholder = "Nom du colis" })
+                        @Html.LabelFor(model => Model.TransportDePersonnes.NombreDePlace)
+                        @Html.ValidationMessageFor(model => Model.TransportDePersonnes.NombreDePlace)
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(model => Model.TransportDePersonnes.Modele, new { @class = "form-control", placeholder = "Nature du colis" })
+                        @Html.LabelFor(model => Model.TransportDePersonnes.Modele)
+                        @Html.ValidationMessageFor(model => Model.TransportDePersonnes.Modele)
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(model => Model.TransportDePersonnes.CouleurModele, new { @class = "form-control", placeholder = "Volume" })
+                        @Html.LabelFor(model => Model.TransportDePersonnes.CouleurModele)
+                        @Html.ValidationMessageFor(model => Model.TransportDePersonnes.CouleurModele)
+                    </div>
+
+               
+
+                    //Ajout des fonctions cachées afin de pouvoir récupérer les clés primaires et étrangères des tables à modifier
+                     @Html.HiddenFor(model=>model.TransportDePersonnes.Id)
+                     @Html.HiddenFor(model=>model.TransportDePersonnes.ServiceId)
+                     @Html.HiddenFor(model=>model.Service.Id)
+                    
+                    @Html.HiddenFor(model=>model.TransportDePersonnes.ImagePath)
+                    <div class="d-flex flex-row my-3">
+                        <div class="mb-3 d-flex">
+                            <div>
+                                @Html.LabelFor(model => model.TransportDePersonnes.Image, new { id = "imageLabel", @style = "text-align:center;" })
+                                @Html.TextBoxFor(model => model.TransportDePersonnes.Image, new { placeholder = "Image", @type = "file" })
+
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <img src="@Model.TransportDePersonnes.ImagePath" height="400" width="400" />
+                        </div>
+                    </div>
+
+                    <!-- Submit Button-->
+                    <button class="btn btn-primary btn-xl" type="submit">Modifier</button>
+                }
+            </div>
+        </div>
+
